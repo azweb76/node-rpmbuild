@@ -5,9 +5,9 @@
 Summary: {{summary}}
 Name: {{name}}
 Version: {{version}}
-Release: 1
-License: GPL+
-Group: Development/Tools
+Release: {{release}}
+License: {{license}}
+Group: {{group}}
 {{sources}}
 URL: {{url}}
 
