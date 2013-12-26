@@ -1,6 +1,6 @@
 {
   "name": "node-rpmbuild",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "node-rpmbuild",
   "main": "lib/rpmbuild.js",
   "scripts": {
