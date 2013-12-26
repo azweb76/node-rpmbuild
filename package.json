@@ -1,0 +1,28 @@
+{
+  "name": "node-rpmbuild",
+  "version": "0.0.1",
+  "description": "node-rpmbuild",
+  "main": "lib/rpmbuild.js",
+  "scripts": {
+      "pretest": "node node_modules/jshint/bin/jshint ./lib/.",
+      "test": "istanbul cover ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": "https://github.com/azweb76/node-rpmbuild.git",
+  "author": "Dan Clayton",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "~0.2.9",
+    "glob-stream": "~3.0.4",
+    "event-stream": "~3.0.20",
+    "fs.extra": "~1.2.1",
+    "graceful-fs": "~2.0.1"
+  },
+  "devDependencies": {
+      "mocha": "1.13.0",
+      "chai": "1.8.1",
+      "sinon": "1.7.3",
+      "istanbul": "0.1.44",
+      "mocha-istanbul": "0.2.0"
+    }
+}
