@@ -11,10 +11,10 @@ This is a node package that wraps the rpmbuild cli making integrating rpmbuild i
 npm install -g rpmbuild
 ```
 
-### 2. Install rpmbuild in your project devDependencies:
+### 2. Install rpmbuild in your project dependencies:
 
 ```
-npm install --save-dev rpmbuild
+npm install --save rpmbuild
 ```
 
 ## rpmbuild API
