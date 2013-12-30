@@ -1,4 +1,4 @@
-# node-rpmbuild
+# rpmbuild
 
 This is a node package that wraps the rpmbuild cli making integrating rpmbuild into node a little easier.
 
