@@ -1,6 +1,6 @@
 {
   "name": "rpmbuild",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "RPM build package for node. This is a wrapper around rpmbuild command line.",
   "main": "lib/rpmbuild.js",
   "scripts": {
