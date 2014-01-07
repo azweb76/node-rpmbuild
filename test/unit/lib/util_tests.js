@@ -8,11 +8,4 @@ describe("util", function() {
         assert.isObject(util);
         done();
     });
-    
-    it(":format is valid", function(done) {
-        var expected = 'dan clayton';
-        var actual = util.format('dan {{lastname}}', { lastname: 'clayton' });
-        assert.equal(actual, expected);
-        done();
-    });
 });
