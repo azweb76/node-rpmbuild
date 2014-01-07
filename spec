@@ -11,6 +11,8 @@ Group: {{group}}
 {{sources}}
 URL: {{url}}
 
+{{requires}}
+
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
