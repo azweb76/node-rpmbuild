@@ -15,6 +15,8 @@ URL: {{url}}
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
+BuildArch: {{buildArch}}
+
 %description
 {{description}}
 
