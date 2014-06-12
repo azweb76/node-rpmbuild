@@ -29,6 +29,7 @@ rpm.build({
     '/var/local/myproject': [ 'lib/**', 'node_modules/**' ],
     '/usr/bin': [ 'bin/**' ]
   },
+  installScript: ['chown -R myuser:myuser %{buildroot}', 'echo "test" > %{buildroot}/test.txt'],
   version: '0.0.1',
   release: 1,
   url: 'http://myproject/',

@@ -33,10 +33,10 @@ mkdir -p  %{buildroot}
 # in builddir
 cp -a * %{buildroot}
 
+{{installScript}}
 
 %clean
 rm -rf %{buildroot}
-
 
 %files
 {{files}}
