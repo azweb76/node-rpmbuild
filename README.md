@@ -2,25 +2,27 @@
 
 This is a node package that wraps the rpmbuild cli making integrating rpmbuild into node a little easier.
 
+Forked from https://github.com/azweb76/node-rpmbuild which appears to have been abandoned.
+
 
 ## Usage
 
 ### 1. Install rpmbuild globally:
 
 ```
-npm install -g rpmbuild
+npm install -g @seangarner/rpmbuild
 ```
 
 ### 2. Install rpmbuild in your project dependencies:
 
 ```
-npm install --save rpmbuild
+npm install --save @seangarner/rpmbuild
 ```
 
 ## rpmbuild API
 
 ```javascript
-var rpm = require('rpmbuild');
+var rpm = require('@seangarner/rpmbuild');
 rpm.build({
   name: 'myproject',
   summary: 'myproject RPM',
@@ -42,5 +44,3 @@ rpm.build({
   console.log('done');
 });
 ```
-
-
