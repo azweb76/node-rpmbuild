@@ -1,13 +1,13 @@
 {
-  "name": "rpmbuild",
+  "name": "@seangarner/rpmbuild",
   "version": "0.0.22",
-  "description": "RPM build package for node. This is a wrapper around rpmbuild command line.",
+  "description": "RPM build package for node. This is a wrapper around rpmbuild command line. Forked from azweb76/node-rpmbuild",
   "main": "lib/rpmbuild.js",
   "scripts": {
     "pretest": "node node_modules/jshint/bin/jshint ./lib/.",
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha"
   },
-  "repository": "https://github.com/azweb76/node-rpmbuild.git",
+  "repository": "https://github.com/seangarner/node-rpmbuild.git",
   "author": "Dan Clayton",
   "license": "MIT",
   "readmeFilename": "README.md",
