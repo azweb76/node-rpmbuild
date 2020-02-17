@@ -8,6 +8,9 @@
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha"
   },
   "repository": "https://github.com/azweb76/node-rpmbuild.git",
+  "publishConfig":{
+    "registry":"https://registry.npmjs.com"
+  },
   "author": "Dan Clayton",
   "license": "MIT",
   "readmeFilename": "README.md",
