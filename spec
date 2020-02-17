@@ -1,3 +1,4 @@
+%define        _binaries_in_noarch_packages_terminate_build   0
 %define        __spec_install_post %{nil}
 %define          debug_package %{nil}
 %define        __os_install_post %{_dbpath}/brp-compress
