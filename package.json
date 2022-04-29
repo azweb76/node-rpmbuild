@@ -15,7 +15,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "async": "~0.2.9",
+    "async": "~2.6.4",
     "glob-stream": "~3.1.0",
     "event-stream": "~3.0.20",
     "fs.extra": "~1.2.1",
