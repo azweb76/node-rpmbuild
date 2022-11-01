@@ -16,17 +16,17 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "async": "~0.2.9",
-    "glob-stream": "~3.1.0",
+    "glob-stream": "~7.0.0",
     "event-stream": "~3.0.20",
     "fs.extra": "~1.2.1",
     "graceful-fs": "~2.0.1",
     "x-util": "0.0.4"
   },
   "devDependencies": {
-    "mocha": "1.13.0",
+    "mocha": "10.1.0",
     "chai": "1.8.1",
     "sinon": "1.7.3",
-    "istanbul": "0.1.44",
+    "istanbul": "0.4.5",
     "mocha-istanbul": "0.2.0"
   }
 }
