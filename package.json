@@ -26,7 +26,7 @@
     "mocha": "1.13.0",
     "chai": "1.8.1",
     "sinon": "1.7.3",
-    "istanbul": "0.1.44",
+    "istanbul": "0.4.5",
     "mocha-istanbul": "0.2.0"
   }
 }
